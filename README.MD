@@ -28,7 +28,7 @@ Blue Links is a mobile-style alumni portal built with Lit. It includes a welcome
 To run this project on Windows PowerShell:
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/sheleek1n/firstattempt2026_estaniel.git
 cd firstattempt2026_estaniel
 npm install
 npm run dev
@@ -67,7 +67,6 @@ npm run build
 
 ## Screenshots
 
-Required screenshots (used by this README) are in the `images` folder:
 
 1. Login Page
 
@@ -118,5 +117,11 @@ Additional captures in project root:
 3. VS Code GitHub Copilot
 
 ## Prompt
+1st prompt:
+if i have a figma i want to apply it to copilot how will you want it to sent it to you so you can generate a prompt ?
 
-Create a mobile-first alumni portal with authentication, a dashboard, a job board, a profile page, and bottom navigation.
+2nd prompt:
+note that this is simple web app using (Lit JS) as framework
+sent images to from figma to claude
+
+reply: claude generate 1-8 modules prompt then i pasted everthing on copilot including lit js set up 

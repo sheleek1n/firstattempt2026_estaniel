@@ -120,8 +120,8 @@ Additional captures in project root:
 if i have a figma i want to apply it to copilot how will you want it to sent it to you so you can generate a prompt ?
 
 2nd prompt(claude) :
+***sent images to from figma to claude***
 note that this is simple web app using (Lit JS) as framework
-sent images to from figma to claude
 
 reply: claude generate 1-8 modules prompt
 

@@ -112,16 +112,18 @@ Additional captures in project root:
 
 ## AI Tools
 
-1. ChatGPT
-2. Claude (Premium)
-3. VS Code GitHub Copilot
+1. Claude (Premium) (Haiku 4.5)
+2. VS Code GitHub Copilot(Auto)
 
 ## Prompt
-1st prompt:
+1st prompt(claude):
 if i have a figma i want to apply it to copilot how will you want it to sent it to you so you can generate a prompt ?
 
-2nd prompt:
+2nd prompt(claude) :
 note that this is simple web app using (Lit JS) as framework
 sent images to from figma to claude
 
-reply: claude generate 1-8 modules prompt then i pasted everthing on copilot including lit js set up 
+reply: claude generate 1-8 modules prompt
+
+3rd prompt(copilot)
+sent images from figma + pasted 1st module until 8th module.

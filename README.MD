@@ -162,16 +162,16 @@ Then open the app in browser and verify:
 2. VS Code GitHub Copilot(Auto)
 
 ## Activity #14 - AI-Assisted Coding and a public Github Repo Prompt
-1st prompt(claude):
+- 1st prompt(claude):
 if i have a figma i want to apply it to copilot how will you want it to sent it to you so you can generate a prompt ?
 
-2nd prompt(claude) :
+- 2nd prompt(claude) :
 ***sent images to from figma to claude***
--note that this is simple web app using (Lit JS) as framework
+- note that this is simple web app using (Lit JS) as framework
 
-reply: claude generate 1-8 modules prompt
+- reply: claude generate 1-8 modules prompt
 
-3rd prompt(copilot)
+- 3rd prompt(copilot)
 -sent images from figma + pasted 1st module until 8th module.
 
 ## Activity #15 - AI-Assisted Coding Part 2
@@ -179,6 +179,6 @@ Master Prompt
 pasted whole instruction + give me step by step guide me
 
 ##AI Hallucinations & Manual Fixes
-generated the 1st file in the folder but its not wired properly in my system
-since icon is required I added my own.
-fixed them based on my actual folder structure
+1. generated the 1st file in the folder but its not wired properly in my system
+2. since icon is required I added my own.
+3. fixed them based on my actual folder structure

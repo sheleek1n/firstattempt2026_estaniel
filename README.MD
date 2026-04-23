@@ -115,15 +115,24 @@ Additional captures in project root:
 1. Claude (Premium) (Haiku 4.5)
 2. VS Code GitHub Copilot(Auto)
 
-## Prompt
+## Activity #14 - AI-Assisted Coding and a public Github Repo Prompt
 1st prompt(claude):
 if i have a figma i want to apply it to copilot how will you want it to sent it to you so you can generate a prompt ?
 
 2nd prompt(claude) :
 ***sent images to from figma to claude***
-note that this is simple web app using (Lit JS) as framework
+-note that this is simple web app using (Lit JS) as framework
 
 reply: claude generate 1-8 modules prompt
 
 3rd prompt(copilot)
-sent images from figma + pasted 1st module until 8th module.
+-sent images from figma + pasted 1st module until 8th module.
+
+## Activity #14
+Master Prompt
+-pasted whole instruction + give me step by step guide me
+
+##AI Hallucinations & Manual Fixes    
+-created it and placed it in /public
+-downloaded and added my own icons
+-fixed them based on my actual folder structure

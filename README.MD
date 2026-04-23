@@ -132,7 +132,52 @@ reply: claude generate 1-8 modules prompt
 Master Prompt
 -pasted whole instruction + give me step by step guide me
 
-##AI Hallucinations & Manual Fixes    
+##AI Hallucinations & Manual Fixes
 -created it and placed it in /public
 -downloaded and added my own icons
 -fixed them based on my actual folder structure
+
+## PWA Update (Apr 23, 2026)
+
+This project was upgraded to a Progressive Web App (PWA) with university branding and offline support.
+
+### What was added/updated
+
+- **Web App Manifest**
+  - File: `public/manifest.json`
+  - Includes: app name, short name, description, start URL, display mode, theme/background colors, orientation, and icons.
+- **Branding Icons**
+  - Files:
+    - `public/icons/icon-192.svg`
+    - `public/icons/icon-512.svg`
+  - These are used for install prompts and home screen icons.
+- **Service Worker Registration**
+  - File: `src/app.ts`
+  - Registers `/sw.js` in production builds.
+- **PWA Build Integration**
+  - File: `vite.config.ts`
+  - Added `vite-plugin-pwa` with `generateSW` so service worker and precache list are generated automatically during build.
+- **App Metadata in HTML**
+  - File: `index.html`
+  - Added manifest link, theme color, favicon, and apple touch icon tags.
+
+### Caching strategy used
+
+- **Precache (build-time):** app shell/build assets for fast startup.
+- **Network First (documents/pages):** fresh content when online, offline fallback when disconnected.
+- **Stale While Revalidate (JS/CSS/fonts):** instant cached response with background updates.
+- **Cache First (images/icons):** faster repeated loads and reduced bandwidth.
+
+### How to verify PWA behavior
+
+```bash
+npm install
+npm run build
+npm run preview
+```
+
+Then open the app in browser and verify:
+- Install prompt/icon is available.
+- App opens in standalone mode after install.
+- Reload remains fast after first visit.
+- App still opens when offline (after initial load/build cache).

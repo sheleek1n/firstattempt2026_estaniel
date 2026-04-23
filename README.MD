@@ -176,9 +176,9 @@ reply: claude generate 1-8 modules prompt
 
 ## Activity #15 - AI-Assisted Coding Part 2
 Master Prompt
--pasted whole instruction + give me step by step guide me
+pasted whole instruction + give me step by step guide me
 
 ##AI Hallucinations & Manual Fixes
--generated the 1st file in the folder but its not wired properly in my system
--since icon is required I added my own.
--fixed them based on my actual folder structure
+generated the 1st file in the folder but its not wired properly in my system
+since icon is required I added my own.
+fixed them based on my actual folder structure

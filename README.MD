@@ -175,7 +175,7 @@ if i have a figma i want to apply it to copilot how will you want it to sent it 
 -sent images from figma + pasted 1st module until 8th module.
 
 ## Activity #15 - AI-Assisted Coding Part 2
-Master Prompt
+Master Prompt:
 pasted whole instruction + give me step by step guide me
 
 ##AI Hallucinations & Manual Fixes
